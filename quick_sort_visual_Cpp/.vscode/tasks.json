@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run",
+            "type": "shell",
+            "command": "g++ quick_sort_visual.cpp -o quick_sort_visual -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio && ./quick_sort_visual",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
